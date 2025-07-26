@@ -1,0 +1,89 @@
+/* Register Page Styles */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #a8dadc 0%, #f1faee 50%, #457b9d 100%);
+  padding: 1rem;
+}
+
+.register-form {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 2.5rem 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.register-form:hover {
+  transform: scale(1.05);
+}
+
+.register-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  color: #2a9d8f;
+  font-size: 3rem;
+}
+
+.register-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1d3557;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.register-input {
+  width: 90%;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  color: #1d3557;
+  transition: none;
+}
+
+.register-input::placeholder {
+  color: #a8a8a8;
+}
+
+.register-input:focus {
+  outline: none;
+  border-color: #2a9d8f;
+  box-shadow: none;
+}
+
+.register-button {
+  width: 100%;
+  background-color: #2a9d8f;
+  color: white;
+  font-weight: 700;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(42, 157, 143, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.register-button:hover {
+  background-color: #21867a;
+  box-shadow: 0 12px 20px rgba(33, 134, 122, 0.6);
+  transform: translateY(-2px);
+}
+
+.register-button:active {
+  background-color: #1b6b63;
+  box-shadow: none;
+  transform: translateY(0);
+}

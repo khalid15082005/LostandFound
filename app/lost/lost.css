@@ -1,0 +1,80 @@
+/* Container for the lost page */
+.lost-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9fafb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* Form styling */
+.lost-form {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Form heading */
+.lost-form h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #333333;
+  text-align: center;
+}
+
+/* Input and textarea styling */
+.lost-input,
+.lost-textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1.8px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #444444;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.lost-input:focus,
+.lost-textarea:focus {
+  outline: none;
+  border-color: #ef4444; /* red-500 */
+  box-shadow: 0 0 5px rgba(239, 68, 68, 0.5);
+}
+
+/* Submit button styling */
+.lost-button {
+  width: 100%;
+  background-color: #ef4444; /* red-500 */
+  color: white;
+  padding: 14px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: inherit;
+}
+
+.lost-button:hover {
+  background-color: #dc2626; /* red-600 */
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .lost-form {
+    padding: 20px;
+    width: 100%;
+  }
+}

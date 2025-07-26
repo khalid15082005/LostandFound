@@ -1,0 +1,65 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #bfdbfe 0%, #ffffff 50%, #d1fae5 100%);
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.description {
+  font-size: 1.25rem;
+  color: #4b5563;
+  margin-bottom: 2.5rem;
+  max-width: 40rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.button {
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttonLost {
+  background-color: #dc2626;
+}
+
+.buttonLost:hover {
+  background-color: #b91c1c;
+}
+
+.buttonFound {
+  background-color: #16a34a;
+}
+
+.buttonFound:hover {
+  background-color: #15803d;
+}
+
+.buttonDashboard {
+  background-color: #2563eb;
+}
+
+.buttonDashboard:hover {
+  background-color: #1d4ed8;
+}
